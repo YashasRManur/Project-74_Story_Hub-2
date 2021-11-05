@@ -76,7 +76,7 @@ export default class ReadStoryScreen extends React.Component {
               placeholder="Type Here..."
              
              // onChangeText={text => this.SearchFilterFunction(text)}
-             // onChangeText={() => this.SearchFilterFunction(text)}
+              onChangeText={() => this.SearchFilterFunction(text)}
              // onChangeText={({text}) => this.SearchFilterFunction(text)}
              // onChangeText={text => this.SearchFilterFunction(text)}
 
